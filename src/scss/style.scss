@@ -60,7 +60,7 @@ $url-images: '/assets/image/';
         width: 13.8rem;
         padding: 0 0.8rem 0 3.3rem;
         height: 3.2rem;
-        font-size: 1rem;
+        font-size: var(--font-basic);
         color: var(--color-gray400);
         border-radius: 0.5rem;
         transition: width 0.3s linear;
@@ -191,7 +191,7 @@ $url-images: '/assets/image/';
       margin-bottom: 2.5rem;
 
       h2 {
-        font-size: 2.4rem;
+        font-size: var(--font-title);
         font-weight: 700;
       }
     }
@@ -215,7 +215,7 @@ $url-images: '/assets/image/';
           margin-bottom: 0.5rem;
 
           span {
-            font-size: 1rem;
+            font-size: var(--font-basic);
             color: var(--color-gray500);
             line-height: 1.2rem;
             float: right;
@@ -225,7 +225,7 @@ $url-images: '/assets/image/';
     }
 
     &__subtitle {
-      font-size: 1.3rem;
+      font-size: var(--font-sub-title);
       font-weight: 700;
       margin-bottom: 1.5rem;
     }
@@ -305,13 +305,13 @@ $url-images: '/assets/image/';
 
     &__description {
       margin-bottom: 1rem;
-      font-size: 0.9rem;
+      font-size: var(--font-min);
       color: var(--color-gray500);
       line-height: 1.5;
     }
 
     &__copyright {
-      font-size: 0.9rem;
+      font-size: var(--font-min);
       color: var(--color-gray700);
       line-height: 1;
 
@@ -453,7 +453,7 @@ $url-images: '/assets/image/';
         align-items: center;
         border-radius: 2rem;
         background-color: var(--color-white);
-        font-size: 1rem;
+        font-size: var(--font-basic);
         color: var(--color-gray900);
         word-break: break-all;
         cursor: pointer;
@@ -478,7 +478,7 @@ $url-images: '/assets/image/';
         width: 11.2rem;
         height: auto;
         right: 0;
-        font-size: 1rem;
+        font-size: var(--font-basic);
         font-weight: 500;
         text-decoration: none;
         line-height: 1;
@@ -495,7 +495,7 @@ $url-images: '/assets/image/';
       &__inner {
         height: 100%;
         padding: 0.6rem 0;
-        font-size: 1rem;
+        font-size: var(--font-basic);
         font-weight: 500;
       }
 
@@ -540,7 +540,7 @@ $url-images: '/assets/image/';
 
         span {
           flex: 1 1;
-          font-size: 1rem;
+          font-size: var(--font-basic);
           font-weight: 500;
           color: var(--color-gray900);
           border: 0;
@@ -601,7 +601,7 @@ $url-images: '/assets/image/';
 .button {
   width: min-content;
   max-width: 100%;
-  font-size: 1rem;
+  font-size: var(--font-basic);
   font-weight: 600;
   line-height: normal;
   letter-spacing: normal;
@@ -680,7 +680,7 @@ $url-images: '/assets/image/';
     border: 1px solid var(--color-border-color);
     border-radius: 0.5rem;
     padding: 14px;
-    font-size: 1rem;
+    font-size: var(--font-basic);
     height: 3.2rem;
 
     &:hover {
@@ -701,7 +701,7 @@ $url-images: '/assets/image/';
       padding: 0;
       width: 100%;
       background: rgba(0, 0, 0, 0);
-      font-size: 1rem;
+      font-size: var(--font-basic);
       line-height: normal;
       letter-spacing: normal;
       color: var(--color-gray900);
@@ -723,7 +723,7 @@ $url-images: '/assets/image/';
     background-color: var(--color-gray50);
 
     th {
-      font-size: 0.9rem;
+      font-size: var(--font-min);
       line-height: 1.85;
       color: var(--color-gray500);
       min-height: 2.8rem;
@@ -740,7 +740,7 @@ $url-images: '/assets/image/';
     }
 
     td {
-      font-size: 1rem;
+      font-size: var(--font-basic);
       line-height: 1.6;
       color: var(--color-gray800);
       text-align: center;
@@ -790,7 +790,7 @@ $url-images: '/assets/image/';
     border-radius: 0.3rem;
     border: 1px solid var(--color-border-color);
     background-color: var(--color-white);
-    font-size: 0.9rem;
+    font-size: var(--font-min);
     font-weight: 600;
     color: var(--color-gray900);
     cursor: pointer;
@@ -834,7 +834,7 @@ $url-images: '/assets/image/';
 
     p {
       color: var(--color-gray500);
-      font-size: 0.9rem;
+      font-size: var(--font-min);
       margin-top: 0.4rem;
       line-height: 1.5rem;
       word-break: keep-all;
@@ -920,7 +920,7 @@ $url-images: '/assets/image/';
         margin-top: 2vh;
       }
       p {
-        font-size: 1rem;
+        font-size: var(--font-basic);
         color: var(--color-gray700);
         margin-top: 0.5rem;
       }
@@ -948,7 +948,7 @@ $url-images: '/assets/image/';
         strong {
           display: block;
           color: var(--color-gray700);
-          font-size: 1rem;
+          font-size: var(--font-basic);
           text-align: center;
           margin-bottom: 1rem;
         }
@@ -965,13 +965,13 @@ $url-images: '/assets/image/';
     align-items: center;
 
     strong {
-      font-size: 1.3rem;
+      font-size: var(--font-sub-title);
       font-weight: 700;
       margin-bottom: 1.5rem;
     }
 
     p {
-      font-size: 1rem;
+      font-size: var(--font-basic);
       color: var(--color-gray500);
       margin-top: 0.5rem;
     }
@@ -1000,14 +1000,14 @@ $url-images: '/assets/image/';
     }
 
     strong {
-      font-size: 1.05rem;
+      font-size: var(--font-strong);
       font-weight: 700;
       display: block;
       margin-bottom: 0.4rem;
     }
 
     p {
-      font-size: 1rem;
+      font-size: var(--font-basic);
       color: var(--color-gray500);
       line-height: 1.2rem;
 

@@ -124,6 +124,11 @@ input {
   --color-text-dark: #212529;
   --color-transparent-danger: rgba(245, 95, 84, 0.05);
   --color-transparent-green: rgba(25, 188, 133, 0.1);
+  --font-basic: 1rem;
+  --font-title: 2.4rem;
+  --font-min: 0.9rem;
+  --font-sub-title: 1.3rem;
+  --font-strong: 1.05rem;
 }
 
 /*!

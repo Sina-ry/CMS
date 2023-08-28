@@ -55,6 +55,11 @@ function menuClose() {
     menuWrap.parentElement.classList.add('close');
     const nav = document.querySelector('.nav');
     nav.classList.add('mobile');
+    const navMenu = document.querySelector('.nav__control');
+    navMenu.addEventListener('click', () => {
+      const nav = document.querySelector('.nav');
+      nav.style.display = 'none';
+    });
   }
   if (BrowserWidth >= 1400) {
     const nav = document.querySelector('.nav');
@@ -72,11 +77,6 @@ headerMenu.addEventListener('click', () => {
   nav.classList.remove('close');
 });
 
-const navMenu = document.querySelector('.nav__control');
-navMenu.addEventListener('click', () => {
-  const nav = document.querySelector('.nav');
-  nav.style.display = 'none';
-});
 // 브라우저 사이즈 실시간 감지 및 메뉴 축소/확대
 window.addEventListener('resize', () => {
   menuClose();

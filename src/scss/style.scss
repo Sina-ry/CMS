@@ -1150,3 +1150,37 @@ $url-images: '/assets/image/';
     opacity: 1;
   }
 }
+
+.icon {
+  &--menu path {
+    fill: var(--color-gray500);
+  }
+
+  &--notice path {
+    fill: var(--color-gray400);
+  }
+
+  &--arrow path {
+    fill: var(--color-gray900);
+  }
+
+  &--previous path {
+    fill: var(--color-gray800);
+  }
+
+  &--next path {
+    fill: var(--color-gray800);
+  }
+
+  &--start path {
+    fill: var(--color-gray900);
+  }
+
+  &--end path {
+    fill: var(--color-gray900);
+  }
+
+  &--add path {
+    fill: var(--color-gray900);
+  }
+}
